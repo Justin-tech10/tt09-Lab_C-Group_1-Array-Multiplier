@@ -18,5 +18,4 @@ Explain how to use your project
 This project is to test the product of multiplying 4 bit numbers, to test this we have to give the projects a 8 bit values to then have 4x4 binary product. 
 
 ## External hardware
-
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+N/A 

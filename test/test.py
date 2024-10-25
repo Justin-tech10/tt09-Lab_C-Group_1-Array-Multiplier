@@ -26,7 +26,7 @@ async def test_project(dut):
     dut._log.info("Test project behavior")
 
     # Set the input values you want to test
-    dut.ui_in.value = 0b'00100010
+    dut.ui_in.value = 0b00100010
    
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -34,9 +34,9 @@ async def test_project(dut):
     # The following assersion is just an example of how to check the output values.
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 4
-//test 2
-# Set the input values you want to test
-    dut.ui_in.value = 0b'01100011
+
+    # Set the input values you want to test
+    dut.ui_in.value = 0b01100011
    
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -44,9 +44,9 @@ async def test_project(dut):
     # The following assersion is just an example of how to check the output values.
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 18
-//test 3
-# Set the input values you want to test
-    dut.ui_in.value = 0b'00110011
+
+    # Set the input values you want to test
+    dut.ui_in.value = 0b00110011
    
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -54,9 +54,9 @@ async def test_project(dut):
     # The following assersion is just an example of how to check the output values.
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 9
-//test 5
-# Set the input values you want to test
-    dut.ui_in.value = 0b'00100011
+
+    # Set the input values you want to test
+    dut.ui_in.value = 0b00100011
    
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)
@@ -64,9 +64,9 @@ async def test_project(dut):
     # The following assersion is just an example of how to check the output values.
     # Change it to match the actual expected output of your module:
     assert dut.uo_out.value == 6
-//test 6
-# Set the input values you want to test
-    dut.ui_in.value = 0b'00110100
+
+    # Set the input values you want to test
+    dut.ui_in.value = 0b00110100
    
     # Wait for one clock cycle to see the output values
     await ClockCycles(dut.clk, 1)

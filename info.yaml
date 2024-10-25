@@ -1,7 +1,7 @@
 # Tiny Tapeout project information
 project:
-  title:        "Mult-Array"      # Project title
-  author:       "Justin, ALEXA"      # Your name
+  title:        "Lab C 4x4 Mult-Array"      # Project title
+  author:       "Justin Morris, Alexa"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
   description:  "This lab takes takes 8bit binary value for two 4 bit number and mulitply them together."      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
@@ -32,14 +32,14 @@ pinout:
   ui[7]: "q[3]"
 
   # Outputs
-  uo[0]: "m[0]"
-  uo[1]: "m[1]"
-  uo[2]: "m[2]"
-  uo[3]: "m[3]"
-  uo[4]: "q[0]"
-  uo[5]: "q[1]"
-  uo[6]: "q[2]"
-  uo[7]: "q[3]"
+  uo[0]: "p[0]"
+  uo[1]: "p[1]"
+  uo[2]: "p[2]"
+  uo[3]: "p[3]"
+  uo[4]: "p[4]"
+  uo[5]: "p[5]"
+  uo[6]: "p[6]"
+  uo[7]: "p[7]"
 
   # Bidirectional pins
   uio[0]: ""
