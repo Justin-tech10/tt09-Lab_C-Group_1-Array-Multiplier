@@ -32,7 +32,7 @@ module tt_um_array_mult_structural (
     
     assign p = {C[2], partial3, partial2[0], partial1[0],w1[0]};
   // All output pins must be assigned. If not used, assign to 0.
-  assign uo_out  = p
+  assign uo_out  = p;
   assign uio_out = 0;
   assign uio_oe  = 0;
 
