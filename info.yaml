@@ -3,11 +3,7 @@ project:
   title:        "Lab C 4x4 Mult-Array"      # Project title
   author:       "Justin Morris, Alexa"      # Your name
   discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  "This focuses on designing a 4x4 multiplier array with simple parallel multiplier that calculates the product of two 4-bit binary numbers.
-                  It uses an array of AND gates to create partial products and a series of full adders to sum them up.
-		Using structural modeling and the basics of digital circuit,we will simulate and synthesis,along with performance tracking. 
-		The final design will be used as a Tiny Tapeout project for the purpose of a multiplier."
-
+  description:  "This focuses on designing a 4x4 multiplier array with simple parallel multiplier that calculates the product of two 4-bit binary numbers.The final design will be used as a Tiny Tapeout project for the purpose of a multiplier."
 # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
